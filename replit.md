@@ -20,6 +20,7 @@ EcoSort AI is an AI-powered waste sorting assistant that helps users classify wa
 - **Build Tool**: Vite 6.2.0
 - **AI Service**: Google Gemini AI via @google/genai package
 - **Port**: 5000 (configured for Replit proxy)
+- **HMR**: Configured for Replit's HTTPS proxy (clientPort: 443, protocol: wss)
 
 ### Key Features
 - **Image Upload**: Users can upload images of waste items

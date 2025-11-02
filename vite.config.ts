@@ -9,7 +9,8 @@ export default defineConfig(({ mode }) => {
         port: 5000,
         host: '0.0.0.0',
         hmr: {
-          clientPort: 5000,
+          clientPort: 443,
+          protocol: 'wss',
         },
       },
       plugins: [react()],
