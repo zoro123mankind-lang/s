@@ -1,0 +1,7 @@
+{
+  "name": "EcoSort AI",
+  "description": "An intelligent waste recognition system that classifies waste items from images to promote eco-friendly habits and recycling.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
